@@ -1,0 +1,146 @@
+15:08:27.638 Plugin java is already installed.
+15:08:27.640 Plugin html-report is already installed.
+15:08:29.350 Checking updates...
+15:08:35.328 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+15:08:35.333 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+15:08:35.351 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+15:08:35.351 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+15:08:35.355 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+15:08:35.355 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+15:08:35.356 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+15:08:35.357 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+15:08:35.359 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+15:08:35.360 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+15:08:35.361 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+15:08:35.362 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+15:08:35.363 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+15:08:35.363 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+15:08:41.816 Plugin [Html Report] with pid [99233] has exited
+15:08:42.230 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:08:42.230 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:08:42.230 
+Total time taken: 4.148s
+15:08:42.231 Updates are available. Run `gauge update -c` for more info.
+15:12:14.650 Plugin html-report is already installed.
+15:12:14.651 Plugin java is already installed.
+15:12:15.714 Checking updates...
+15:12:21.499 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+15:12:21.501 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+15:12:21.516 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+15:12:21.517 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+15:12:21.521 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+15:12:21.522 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+15:12:21.523 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+15:12:21.523 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+15:12:21.525 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+15:12:21.525 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+15:12:21.527 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+15:12:21.527 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+15:12:21.528 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+15:12:21.528 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+15:12:25.798 Plugin [Html Report] with pid [99462] has exited
+15:12:26.312 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:12:26.312 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:12:26.312 
+Total time taken: 2.384s
+15:12:26.313 Updates are available. Run `gauge update -c` for more info.
+15:14:24.957 Plugin java is already installed.
+15:14:24.959 Plugin html-report is already installed.
+15:14:27.001 Checking updates...
+15:14:32.422 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+15:14:32.424 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+15:14:32.436 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+15:14:32.437 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+15:14:32.438 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+15:14:32.438 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+15:14:32.439 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+15:14:32.440 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+15:14:32.440 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+15:14:32.440 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+15:14:32.441 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+15:14:32.441 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+15:14:32.442 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+15:14:32.442 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+15:14:47.426 Plugin [Html Report] with pid [99584] has exited
+15:14:47.841 Specifications:	1 executed	1 passed	0 failed	0 skipped
+15:14:47.841 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+15:14:47.841 
+Total time taken: 12.785s
+15:14:47.842 Updates are available. Run `gauge update -c` for more info.
+16:11:25.676 Plugin java is already installed.
+16:11:25.677 Plugin html-report is already installed.
+16:11:26.766 Checking updates...
+16:11:27.747 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+16:11:27.749 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+16:11:27.757 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+16:11:27.758 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+16:11:27.758 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+16:11:27.759 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+16:11:27.759 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+16:11:27.760 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+16:11:27.761 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+16:11:27.761 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+16:11:27.762 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+16:11:27.762 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+16:11:27.763 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+16:11:27.763 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+16:11:28.562 # Specification Heading
+16:11:28.564 ## Login Front End Web Phoenix
+16:11:28.567 * Everything is Set
+
+16:11:31.888 * Wait Till Login Page Ready
+16:11:36.666 * Field Username with "dhony.mp.cbd1@yopmail.com" and Password with "bizzy123" Field
+16:11:37.279 * Click Button Login
+16:11:37.581 Plugin [Html Report] with pid [805] has exited
+16:11:37.994 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:11:37.994 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:11:37.994 
+Total time taken: 8.957s
+16:11:37.995 Updates are available. Run `gauge update -c` for more info.
+16:53:35.842 Plugin html-report is already installed.
+16:53:35.843 Plugin java is already installed.
+16:53:36.849 Checking updates...
+16:53:38.024 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+16:53:38.029 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+16:53:38.074 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+16:53:38.074 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+16:53:38.075 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+16:53:38.075 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+16:53:38.076 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+16:53:38.076 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+16:53:38.076 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+16:53:38.076 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+16:53:38.076 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+16:53:38.077 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+16:53:38.077 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+16:53:38.077 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+16:53:38.868 # Specification Heading
+16:53:38.872 ## Login Front End Web Phoenix
+16:53:38.875 * Everything is Set
+
+16:53:43.342 * Wait Till Login Page Ready
+16:53:48.201 * Field Username with "dhony.mp.cbd1@yopmail.com" and Password with "bizzy123" Field
+16:53:49.029 * Click Button Login
+16:53:49.363 Plugin [Html Report] with pid [3546] has exited
+16:53:49.782 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:53:49.783 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:53:49.783 
+Total time taken: 10.443s
+16:53:49.784 Updates are available. Run `gauge update -c` for more info.
+16:54:20.217 Plugin java is already installed.
+16:54:20.218 Plugin html-report is already installed.
+16:54:21.070 Checking updates...
+16:54:29.527 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+16:54:29.527 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+16:54:29.544 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+16:54:29.544 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+16:54:29.546 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+16:54:29.546 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+16:54:29.546 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+16:54:29.546 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+16:54:29.548 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+16:54:29.548 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+16:54:29.549 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+16:54:29.549 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+16:54:29.550 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+16:54:29.550 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
