@@ -1,4 +1,4 @@
-package BizzyPhoenixGauge.Element;
+package BukaLapakGauge.Element;
 
 public class ElLogin {
 
@@ -10,23 +10,24 @@ public class ElLogin {
     protected String CSSElement;
     protected String CategoryElement;
 
+    public ElLogin _PopUpLogin() {
+        this.CSSElement = ".js-login-wrapper";
+        return this;
+    }
 
 
     public ElLogin _fieldUsername() {
-        this.NameElement = "email";
-        this.CSSElement = ".ts-textfield-officeemail";
+        this.CSSElement = "#user_session_username";
         return this;
     }
 
     public ElLogin _fieldPassword() {
-        this.IdElement = "pass";
-        this.NameElement = "password";
-        this.CSSElement = ".ts-textfield-password";
+        this.CSSElement = "#user_session_password";
         return this;
     }
 
     public ElLogin _buttonLogin() {
-        this.CSSElement = ".ts-button-login";
+        this.CSSElement = "button[name=\"commit\"]";
         return this;
     }
 
