@@ -1,0 +1,6 @@
+[
+	"gauge",
+	"run",
+	"--dir=E:\\workspace\\web-automation\\BukaLapak_GaugeBDD",
+	"E:\\workspace\\web-automation\\BukaLapak_GaugeBDD\\specs"
+]

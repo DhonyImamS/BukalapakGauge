@@ -144,3 +144,381 @@ Total time taken: 10.443s
 16:54:29.549 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
 16:54:29.550 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
 16:54:29.550 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:08:41.588 Compatible version of plugin html-report not found. Installing plugin html-report...
+17:08:41.588 Gathering metadata for html-report
+17:08:41.589 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=&o=windows&a=amd64
+17:08:43.096 Downloading https://github.com/getgauge/html-report/releases/download/v4.0.8/html-report-4.0.8-windows.x86_64.zip
+17:09:02.959 Installing plugin html-report 4.0.8
+17:09:03.049 Successfully installed plugin 'html-report' version 4.0.8
+17:09:03.049 Compatible version of plugin java not found. Installing plugin java...
+17:09:03.049 Gathering metadata for java
+17:09:03.050 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report&o=windows&a=amd64
+17:09:04.282 Downloading https://github.com/getgauge/gauge-java/releases/download/v0.7.2/gauge-java-0.7.2-windows.x86_64.zip
+17:10:00.253 Installing plugin java 0.7.2
+17:10:00.318 Successfully installed plugin 'java' version 0.7.2
+17:10:00.318 Installing required plugins.
+17:10:00.318 Installing plugin 'screenshot'
+17:10:00.318 Gathering metadata for screenshot
+17:10:00.319 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java&o=windows&a=amd64
+17:10:01.584 Checking updates...
+17:10:01.585 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java&o=windows&a=amd64
+17:10:02.543 Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.0.1/screenshot-0.0.1-windows.x86_64.zip
+17:10:02.864 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java&o=windows&a=amd64
+17:10:05.557 Installing plugin screenshot 0.0.1
+17:10:05.564 Successfully installed plugin 'screenshot' version 0.0.1
+17:10:07.617 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:10:07.617 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:10:07.623 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:10:07.623 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:10:07.623 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:10:07.623 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:10:07.623 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:10:07.623 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:10:08.677 [ValidationError] E:\workspace\web-automation\BizzyB2BCommerce_GaugeBDD\specs\example.spec:11 Step implementation not found => 'Vowels in English language are "aeiou".'
+17:10:08.677 [ValidationError] E:\workspace\web-automation\BizzyB2BCommerce_GaugeBDD\specs\example.spec:18 Step implementation not found => 'The word "gauge" has "3" vowels.'
+17:10:08.677 [ValidationError] E:\workspace\web-automation\BizzyB2BCommerce_GaugeBDD\specs\example.spec:28 Step implementation not found => 'Almost all words have vowels <table>'
+17:10:08.716 # Specification Heading
+17:10:08.717 ## Login Front End Web Phoenix
+17:10:08.719 * Everything is Set
+
+17:10:29.639 Failed Step: Everything is Set
+17:10:29.639 Error Message: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SDET-DHONY', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: Driver
+17:10:29.639 Specification: specs\login.spec:6
+17:10:29.639 Stacktrace: 
+org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+BukaLapakGauge.Constant.Driver.setupBrowser(Driver.java:28)
+BukaLapakGauge.Services.Engine.setConfiguration(Engine.java:35)
+BukaLapakGauge.Services.Engine.<init>(Engine.java:23)
+BukaLapakGauge.StepLoginBukalapak.readytoSet(StepLoginBukalapak.java:24)
+17:10:29.697 Closing connection [127.0.0.1:64635] cause: EOF
+17:10:29.745 Plugin [Html Report] with pid [21924] has exited
+17:10:29.915 Closing connection [127.0.0.1:64630] cause: read tcp 127.0.0.1:64625->127.0.0.1:64630: wsarecv: An existing connection was forcibly closed by the remote host.
+17:10:30.047 Specifications:	1 executed	0 passed	1 failed	1 skipped
+17:10:30.047 Scenarios:	1 executed	0 passed	1 failed	2 skipped
+17:10:30.047 
+Total time taken: 20.965s
+17:11:00.940 Plugin java is already installed.
+17:11:00.941 Plugin html-report is already installed.
+17:11:02.865 Checking updates...
+17:11:02.868 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:11:04.143 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:11:04.144 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:11:04.151 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:11:04.151 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:11:04.151 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:11:04.151 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:11:04.151 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:11:04.152 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:11:04.583 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:11:04.981 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:11:05.419 # Specification Heading
+17:11:05.421 ## Login Front End Web Phoenix
+17:11:05.423 * Everything is Set
+
+17:11:26.439 Failed Step: Everything is Set
+17:11:26.440 Error Message: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SDET-DHONY', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: Driver
+17:11:26.440 Specification: specs\login.spec:6
+17:11:26.440 Stacktrace: 
+org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+BukaLapakGauge.Constant.Driver.setupBrowser(Driver.java:28)
+BukaLapakGauge.Services.Engine.setConfiguration(Engine.java:35)
+BukaLapakGauge.Services.Engine.<init>(Engine.java:23)
+BukaLapakGauge.StepLoginBukalapak.readytoSet(StepLoginBukalapak.java:24)
+17:11:26.462 Closing connection [127.0.0.1:64748] cause: EOF
+17:11:26.545 Plugin [Html Report] with pid [6016] has exited
+17:11:26.703 Closing connection [127.0.0.1:64740] cause: read tcp 127.0.0.1:64734->127.0.0.1:64740: wsarecv: An existing connection was forcibly closed by the remote host.
+17:11:26.847 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:11:26.847 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:11:26.847 
+Total time taken: 21.056s
+17:13:31.128 Plugin java is already installed.
+17:13:31.129 Plugin html-report is already installed.
+17:13:33.168 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:13:33.168 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:13:33.174 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:13:33.174 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:13:33.175 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:13:33.175 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:13:33.175 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:13:33.175 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:13:33.509 Checking updates...
+17:13:33.511 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:13:34.251 # Specification Heading
+17:13:34.252 ## Login Front End Web Phoenix
+17:13:34.253 * Everything is Set
+
+17:13:34.760 Failed Step: Everything is Set
+17:13:34.760 Error Message: java.lang.IllegalStateException: The driver executable does not exist: E:\workspace\web-automation\BizzyB2BCommerce_GaugeBDD\webdriver\chromedriver
+17:13:34.760 Specification: specs\login.spec:6
+17:13:34.760 Stacktrace: 
+com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+BukaLapakGauge.Constant.Driver.setupBrowser(Driver.java:28)
+BukaLapakGauge.Services.Engine.setConfiguration(Engine.java:35)
+BukaLapakGauge.Services.Engine.<init>(Engine.java:23)
+BukaLapakGauge.StepLoginBukalapak.readytoSet(StepLoginBukalapak.java:24)
+17:13:34.781 Closing connection [127.0.0.1:64982] cause: read tcp 127.0.0.1:64981->127.0.0.1:64982: wsarecv: An existing connection was forcibly closed by the remote host.
+17:13:34.823 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:13:34.866 Plugin [Html Report] with pid [21808] has exited
+17:13:35.022 Closing connection [127.0.0.1:64975] cause: read tcp 127.0.0.1:64971->127.0.0.1:64975: wsarecv: An existing connection was forcibly closed by the remote host.
+17:13:35.163 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:13:35.168 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:13:35.168 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:13:35.168 
+Total time taken: 538ms
+17:15:16.765 Plugin java is already installed.
+17:15:16.766 Plugin html-report is already installed.
+17:15:18.134 Checking updates...
+17:15:18.136 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:15:18.627 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:15:18.627 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:15:18.633 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:15:18.633 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:15:18.633 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:15:18.633 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:15:18.634 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:15:18.634 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:15:19.502 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:15:19.655 # Specification Heading
+17:15:19.656 ## Login Front End Web Phoenix
+17:15:19.658 * Everything is Set
+
+17:15:19.869 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:15:22.023 Failed Step: Everything is Set
+17:15:22.023 Error Message: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SDET-DHONY', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0020EB13+1501971]
+	Ordinal0 [0x0018F6D1+980689]
+	Ordinal0 [0x0011765F+489055]
+	Ordinal0 [0x000AF2F4+62196]
+	Ordinal0 [0x000ABCDA+48346]
+	Ordinal0 [0x000C9800+169984]
+	Ordinal0 [0x000C942D+169005]
+	Ordinal0 [0x000C78EB+162027]
+	Ordinal0 [0x000B0AC7+68295]
+	Ordinal0 [0x000B1B40+72512]
+	Ordinal0 [0x000B1AD9+72409]
+	Ordinal0 [0x001A8F37+1085239]
+	GetHandleVerifier [0x002AD7ED+503293]
+	GetHandleVerifier [0x002AD580+502672]
+	GetHandleVerifier [0x002B46AC+531644]
+	GetHandleVerifier [0x002ADFFA+505354]
+	Ordinal0 [0x001A0606+1050118]
+	Ordinal0 [0x001A047F+1049727]
+	Ordinal0 [0x001AAF9B+1093531]
+	Ordinal0 [0x001AB103+1093891]
+	Ordinal0 [0x001AA095+1089685]
+	BaseThreadInitThunk [0x77268494+36]
+	RtlAreBitsSet [0x77CF41C8+136]
+	RtlAreBitsSet [0x77CF4198+88]
+	(No symbol) [0x00000000]
+17:15:22.023 Specification: specs\login.spec:6
+17:15:22.023 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+BukaLapakGauge.Constant.Driver.setupBrowser(Driver.java:28)
+BukaLapakGauge.Services.Engine.setConfiguration(Engine.java:35)
+BukaLapakGauge.Services.Engine.<init>(Engine.java:23)
+BukaLapakGauge.StepLoginBukalapak.readytoSet(StepLoginBukalapak.java:24)
+17:15:22.044 Closing connection [127.0.0.1:65127] cause: EOF
+17:15:22.128 Plugin [Html Report] with pid [18048] has exited
+17:15:22.619 Closing connection [127.0.0.1:65120] cause: read tcp 127.0.0.1:65115->127.0.0.1:65120: wsarecv: An existing connection was forcibly closed by the remote host.
+17:15:22.733 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:15:22.733 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:15:22.733 
+Total time taken: 2.396s
+17:20:41.517 Plugin java is already installed.
+17:20:41.517 Plugin html-report is already installed.
+17:20:43.500 Checking updates...
+17:20:43.502 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:20:44.444 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:20:44.444 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:20:44.452 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:20:44.452 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:20:44.452 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:20:44.452 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:20:44.453 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:20:44.453 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:20:44.934 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:20:45.561 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:20:46.170 # Specification Heading
+17:20:46.172 ## Login Front End Web Phoenix
+17:20:46.174 * Everything is Set
+
+17:20:52.288 * Wait Till Login Page Ready
+17:23:21.398 Plugin java is already installed.
+17:23:21.399 Plugin html-report is already installed.
+17:23:22.709 Checking updates...
+17:23:22.711 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:23:23.575 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:23:23.575 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:23:23.582 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:23:23.582 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:23:23.583 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:23:23.583 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:23:23.583 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:23:23.583 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:23:23.890 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:23:24.214 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:23:24.875 # Specification Heading
+17:23:24.877 ## Login Front End Web Phoenix
+17:23:24.879 * Everything is Set
+
+17:23:27.899 * Wait Till Login Page Ready
+17:23:48.535 * Field Username with {} and Password with {} Field
+17:23:48.776 * Click Button Login
+17:23:48.948 Closing connection [127.0.0.1:60825] cause: EOF
+17:23:49.028 Plugin [Html Report] with pid [18448] has exited
+17:23:49.379 Closing connection [127.0.0.1:60821] cause: read tcp 127.0.0.1:60817->127.0.0.1:60821: wsarecv: An existing connection was forcibly closed by the remote host.
+17:23:49.532 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:23:49.532 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17:23:49.532 
+Total time taken: 24.086s
+17:24:54.724 Plugin java is already installed.
+17:24:54.725 Plugin html-report is already installed.
+17:24:56.111 Checking updates...
+17:24:56.113 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:24:56.612 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:24:56.612 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:24:56.621 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:24:56.621 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:24:56.621 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:24:56.621 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:24:56.622 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:24:56.622 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:24:57.414 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:24:57.665 # Specification Heading
+17:24:57.667 ## Login Front End Web Phoenix
+17:24:57.668 * Everything is Set
+
+17:24:57.802 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:25:00.546 * Wait Till Login Page Ready
+17:25:15.365 * Field Username with {} and Password with {} Field
+17:25:20.502 * Field Username with {} and Password with {} Field
+17:25:20.769 * Click Button Login
+17:25:20.926 Closing connection [127.0.0.1:61014] cause: EOF
+17:25:21.004 Plugin [Html Report] with pid [21976] has exited
+17:25:21.051 Closing connection [127.0.0.1:61001] cause: EOF
+17:25:21.508 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:25:21.508 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17:25:21.508 
+Total time taken: 23.265s
+17:25:27.401 * Click Button Login
+17:25:39.455 Closing connection [127.0.0.1:65501] cause: EOF
+17:25:39.541 Plugin [Html Report] with pid [16852] has exited
+17:25:39.891 Closing connection [127.0.0.1:65496] cause: read tcp 127.0.0.1:65492->127.0.0.1:65496: wsarecv: An existing connection was forcibly closed by the remote host.
+17:25:40.046 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:25:40.046 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17:25:40.046 
+Total time taken: 4m53.737s
+17:41:50.884 Plugin html-report is already installed.
+17:41:50.885 Plugin java is already installed.
+17:41:52.355 Checking updates...
+17:41:52.357 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:41:52.971 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+17:41:52.971 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+17:41:52.978 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+17:41:52.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+17:41:52.978 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+17:41:52.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+17:41:52.978 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+17:41:52.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+17:41:53.720 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:41:54.091 # Specification Heading
+17:41:54.092 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17:41:54.093 ## Login Front End Web Phoenix
+17:41:54.095 * Everything is Set
+
+17:41:57.008 * Wait Till Login Page Ready
+17:42:15.165 * Field Username with {} and Password with {} Field
+17:42:15.444 * Click Button Login
+17:42:15.618 Closing connection [127.0.0.1:54091] cause: EOF
+17:42:15.699 Plugin [Html Report] with pid [22920] has exited
+17:42:16.052 Closing connection [127.0.0.1:54084] cause: read tcp 127.0.0.1:54079->127.0.0.1:54084: wsarecv: An existing connection was forcibly closed by the remote host.
+17:42:16.203 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:42:16.203 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17:42:16.203 
+Total time taken: 21.538s
+19:21:41.582 Plugin java is already installed.
+19:21:41.583 Plugin html-report is already installed.
+19:21:44.147 Checking updates...
+19:21:44.148 Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+19:21:44.671 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Button Login" > 
+19:21:44.673 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Button Login" parameterizedStepValue:"Click Button Login" > > 
+19:21:44.686 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Everything is Set" > 
+19:21:44.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Everything is Set" parameterizedStepValue:"Everything is Set" > > 
+19:21:44.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait Till Login Page Ready" > 
+19:21:44.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait Till Login Page Ready" parameterizedStepValue:"Wait Till Login Page Ready" > > 
+19:21:44.687 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Field Username with <username> and Password with <password> Field" > 
+19:21:44.687 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Field Username with {} and Password with {} Field" parameterizedStepValue:"Field Username with <username> and Password with <password> Field" parameters:"username" parameters:"password" > > 
+19:21:45.737 Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+19:21:45.968 # Specification Heading
+19:21:45.971 ## Login Front End Web BukaLApak
+19:21:45.973 * Everything is Set
+
+19:21:47.174 Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+19:21:57.207 * Wait Till Login Page Ready
+19:22:14.386 * Field Username with {} and Password with {} Field
+19:22:14.739 * Click Button Login
+19:22:15.003 Closing connection [127.0.0.1:52224] cause: EOF
+19:22:15.051 Plugin [Html Report] with pid [9748] has exited
+19:22:15.404 Closing connection [127.0.0.1:52217] cause: read tcp 127.0.0.1:52213->127.0.0.1:52217: wsarecv: An existing connection was forcibly closed by the remote host.
+19:22:15.554 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:22:15.554 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:22:15.554 
+Total time taken: 29.092s
