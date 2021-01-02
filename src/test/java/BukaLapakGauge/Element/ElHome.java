@@ -11,7 +11,7 @@ public class ElHome {
     protected String CategoryElement;
 
     public ElHome _buttonLoginOnNavbar() {
-        this.CSSElement = "#login_link";
+        this.CSSElement = "a.te-header-login";
         return this;
     }
 

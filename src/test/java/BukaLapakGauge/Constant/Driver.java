@@ -23,12 +23,17 @@ public class Driver {
 
     public WebDriver setupBrowser(Configuration config){
         conf = config;
-        if (conf.browser.equals("chrome")){
-            System.setProperty(conf.WebdriverKeyChrome,conf.WebdriverPathChrome);
+        if (conf.browser.equals("chrome") && conf.OS.equals("macOSX")){
+            System.setProperty(conf.WebdriverKeyChrome,conf.WebdriverPathChromeforMac);
             this.Control = new ChromeDriver();
             this.desiredCapabilities = DesiredCapabilities.chrome();
         }
-        else if (conf.browser.equals("firefox") && !conf.OS.equals("macOSX")){
+        else if (conf.browser.equals("chrome") && conf.OS.equals("windows")) {
+            System.setProperty(conf.WebdriverKeyChrome, conf.WebdriverPathChrome);
+            this.Control = new ChromeDriver();
+            this.desiredCapabilities = DesiredCapabilities.chrome();
+        }
+        else if (conf.browser.equals("firefox") && conf.OS.equals("macOSX")){
             System.setProperty(conf.WebdriverKeyFirefox,conf.WebdriverPathFirefox);
             this.Control = new FirefoxDriver();
         }
